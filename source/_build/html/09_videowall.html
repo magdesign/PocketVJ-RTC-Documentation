@@ -202,15 +202,12 @@ enable broadcast:</p>
 <p>and then stream as master:</p>
 <p><code class="docutils literal notranslate"><span class="pre">avconv</span> <span class="pre">-re</span> <span class="pre">-i</span> <span class="pre">/your/movie.mp4</span> <span class="pre">-vcodec</span> <span class="pre">copy</span> <span class="pre">-f</span> <span class="pre">avi</span> <span class="pre">-an</span> <span class="pre">udp://239.0.1.23:1234</span></code></p>
 <p>make your mac computer as server to serve the video files for Pi-Wall:</p>
-<p>to make your Mac <strong>OSX</strong> the PiWall Master, first install wget:</p>
-<dl class="docutils">
-<dt>::</dt>
-<dd><ul class="first last simple">
-<li><a class="reference external" href="http://rudix.org/packages/wget.html">http://rudix.org/packages/wget.html</a></li>
-<li><a class="reference external" href="http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz">http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz</a></li>
-</ul>
-</dd>
-</dl>
+<p>to make your Mac <strong>OSX</strong> the PiWall Master, first install <code class="docutils literal notranslate"><span class="pre">wget</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">rudix</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="n">wget</span><span class="o">.</span><span class="n">html</span>
+
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">ftp</span><span class="o">.</span><span class="n">gnu</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">gnu</span><span class="o">/</span><span class="n">wget</span><span class="o">/</span><span class="n">wget</span><span class="o">-</span><span class="mf">1.15</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</pre></div>
+</div>
 <p>then:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">libav</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">libav</span><span class="o">-</span><span class="mf">10.1</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
 <span class="n">tar</span> <span class="o">-</span><span class="n">xvzf</span> <span class="n">libav</span><span class="o">-</span><span class="mf">10.1</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
@@ -219,7 +216,6 @@ enable broadcast:</p>
 </pre></div>
 </div>
 <p>Build libav:</p>
-<p>then:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">configure</span> \
 <span class="o">--</span><span class="n">extra</span><span class="o">-</span><span class="n">cflags</span><span class="o">=-</span><span class="n">I</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">include</span> <span class="o">--</span><span class="n">extra</span><span class="o">-</span><span class="n">ldflags</span><span class="o">=-</span><span class="n">L</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span> \
 <span class="o">--</span><span class="n">enable</span><span class="o">-</span><span class="n">gpl</span> <span class="o">--</span><span class="n">enable</span><span class="o">-</span><span class="n">libx264</span> <span class="o">--</span><span class="n">enable</span><span class="o">-</span><span class="n">libxvid</span> \
@@ -230,7 +226,7 @@ enable broadcast:</p>
 <span class="n">make</span> <span class="o">&amp;&amp;</span> <span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
 </pre></div>
 </div>
-<p>Them you can run as master:</p>
+<p>Finally run as master:</p>
 <p><code class="docutils literal notranslate"><span class="pre">avconv</span> <span class="pre">-re</span> <span class="pre">-i</span> <span class="pre">/Users/path/to/video/testfile10.mp4</span> <span class="pre">-f</span> <span class="pre">avi</span> <span class="pre">-an</span> <span class="pre">udp://239.0.1.23:1234</span></code></p>
 </div>
 </div>

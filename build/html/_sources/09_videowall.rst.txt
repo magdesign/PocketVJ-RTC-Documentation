@@ -29,7 +29,7 @@ see video tutorial:
 
 
 SENDER
-****************
+*******
 
 Select this to stream a master video to PiWall slaves
 
@@ -50,12 +50,13 @@ and then stream as master:
 
 make your mac computer as server to serve the video files for Pi-Wall:
 
-to make your Mac **OSX** the PiWall Master, first install wget: 
-
+to make your Mac **OSX** the PiWall Master, first install ``wget``: 
 ::
-    - http://rudix.org/packages/wget.html
 
-    - http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz
+    http://rudix.org/packages/wget.html
+
+    http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz
+
 
 then:
 ::
@@ -66,8 +67,6 @@ then:
     sudo port install yasm zlib bzip2 faac lame speex libogg libvorbis libtheora libvpx x264 XviD openjpeg15 opencore-amr freetype
 
 Build libav:
-
-then:
 ::
 
     ./configure \
@@ -79,7 +78,7 @@ then:
     --enable-libopenjpeg --enable-libfreetype --enable-doc --enable-gnutls --enable-shared
     make && sudo make install
 
-Them you can run as master:
+Finally run as master:
 
 ``avconv -re -i /Users/path/to/video/testfile10.mp4 -f avi -an udp://239.0.1.23:1234``
 

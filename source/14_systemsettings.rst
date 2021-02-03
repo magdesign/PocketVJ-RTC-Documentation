@@ -25,7 +25,7 @@ You can attached USB soundcards, keep in mind that when they are huge, to use an
 AUDIO TESTTONE
 **************
 
-Testtones
+**Testtones** => Testtones
 
 **Volume 100** => sometimes needed if the USB sound level is low
 
@@ -33,11 +33,15 @@ Testtones
 FIRMWARE
 *********
 
-Is for updating stuff
+Is for updating stuff:
 
-see video tutorial: 
 
-or: 
+.. image:: _images/14_CP_firmware.png
+
+
+see video tutorial: https://video.pocketvj.com/AVideo/video/36/pocketvj_rtc_update
+
+if this does not work, use the alternative method: 
 
 
 FACTORY RESET

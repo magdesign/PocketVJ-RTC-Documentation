@@ -46,6 +46,9 @@ Set the display to sleep or wakeup
 PROJECTOR
 **********
 
+.. image:: _images/12_CP_projector.png
+
+
 .. note::  
     - Make sure to connect a PJlink compatible projector via rj45 cable
     - Default ip is: 192.168.2.254

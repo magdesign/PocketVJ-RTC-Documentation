@@ -92,6 +92,7 @@
 <li class="toctree-l1"><a class="reference internal" href="07_sharing.html">SHARING</a></li>
 <li class="toctree-l1"><a class="reference internal" href="08_mapping.html">MAPPING</a></li>
 <li class="toctree-l1"><a class="reference internal" href="09_videowall.html">VIDEO WALL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_scheduler.html">SCHEDULER</a></li>
 <li class="toctree-l1"><a class="reference internal" href="11_dmxoscmidi.html">DMX OSC MIDI</a></li>
 <li class="toctree-l1"><a class="reference internal" href="12_display.html">DISPLAY</a></li>
 <li class="toctree-l1"><a class="reference internal" href="12_display.html#info">INFO</a></li>
@@ -102,13 +103,13 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">NETWORK SETTINGS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#info">INFO</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#change-ip">CHANGE IP</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#remote-access">REMOTE ACCESS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#cp-password">CP PASSWORD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#wifi-antenna">WIFI ANTENNA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#wifi-channel">WIFI CHANNEL</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="14_systemsettings.html">SYSTEM SETTINGS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15_troubleshooting.html">TROUBLESHOOTING</a></li>
 </ul>
 
             
@@ -182,29 +183,31 @@
 </div>
 <div class="section" id="change-ip">
 <h2>CHANGE IP<a class="headerlink" href="#change-ip" title="Permalink to this headline">¶</a></h2>
-<p><strong>192.168.2.</strong> =&gt; sets the ip range to 192.168.2.***</p>
-<p><strong>10.0.0.0.</strong> =&gt; set the ip range to 10.0.0.0.***</p>
-<p><strong>RJ45 DHCP</strong> =&gt; sets the rj45 connection to dhcp to get the ip adress from a router</p>
+<p><strong>192.168.2.</strong> =&gt; Set the ip range to <code class="docutils literal notranslate"><span class="pre">192.168.2.***</span></code> (revert from dhcp)</p>
+<p><strong>10.0.0.0.</strong> =&gt; Set the ip range to <code class="docutils literal notranslate"><span class="pre">10.0.0.0.***</span></code> (revert from dhcp)</p>
+<p><strong>RJ45 DHCP</strong> =&gt; Set the rj45 connection to dhcp to get the ip address from a router</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Wifi IP address stays always the same</p>
 </div>
-<div class="section" id="remote-access">
-<h2>REMOTE ACCESS<a class="headerlink" href="#remote-access" title="Permalink to this headline">¶</a></h2>
-<p>see video tutorial:
-<a class="reference external" href="https://video.pocketvj.com/AVideo/video/3/pocketvj-exhibition-access-from-everywhere-over-the-internet">https://video.pocketvj.com/AVideo/video/3/pocketvj-exhibition-access-from-everywhere-over-the-internet</a></p>
 </div>
 <div class="section" id="cp-password">
 <h2>CP PASSWORD<a class="headerlink" href="#cp-password" title="Permalink to this headline">¶</a></h2>
-<p>Username:</p>
-<p>Password:</p>
+<p>Username: <code class="docutils literal notranslate"><span class="pre">pocketvj</span></code></p>
+<p>Password: <code class="docutils literal notranslate"><span class="pre">12345</span></code></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Change the password in <code class="docutils literal notranslate"><span class="pre">/etc/lighttpd/.htpasswd</span></code></p>
+</div>
 </div>
 <div class="section" id="wifi-antenna">
 <h2>WIFI ANTENNA<a class="headerlink" href="#wifi-antenna" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/13_CP_wifiantenna.png" src="_images/13_CP_wifiantenna.png" />
 <p>Enable or Disable wifi temprary or permanent</p>
 </div>
 <div class="section" id="wifi-channel">
 <h2>WIFI CHANNEL<a class="headerlink" href="#wifi-channel" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>If you have trouble with a building up a stable wifi connecting, change the channel and reboot</p></li>
-</ul>
+<p>Change the Wifi channel to send on another frequency, used with multiple PocketVJ’s</p>
 </div>
 </div>
 

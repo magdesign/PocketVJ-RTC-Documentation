@@ -12,33 +12,33 @@ INFO
 CHANGE IP
 *********
 
-**192.168.2.** => sets the ip range to 192.168.2.***
+**192.168.2.** => Set the ip range to ``192.168.2.***`` (revert from dhcp)
 
-**10.0.0.0.** => set the ip range to 10.0.0.0.***
+**10.0.0.0.** => Set the ip range to ``10.0.0.0.***`` (revert from dhcp)
 
-**RJ45 DHCP** => sets the rj45 connection to dhcp to get the ip adress from a router
+**RJ45 DHCP** => Set the rj45 connection to dhcp to get the ip address from a router
 
-
-REMOTE ACCESS
-*************
-
-see video tutorial: 
-https://video.pocketvj.com/AVideo/video/3/pocketvj-exhibition-access-from-everywhere-over-the-internet
+.. note::
+    The Wifi IP address stays always the same
 
 
 
 CP PASSWORD
 ***********
 
-Username:
+Username: ``pocketvj``
 
-Password: 
+Password: ``12345``
 
+.. note::
+    Change the password in ``/etc/lighttpd/.htpasswd``
 
 
 
 WIFI ANTENNA
 *************
+
+.. image:: _images/13_CP_wifiantenna.png
 
 Enable or Disable wifi temprary or permanent
 
@@ -46,4 +46,4 @@ Enable or Disable wifi temprary or permanent
 WIFI CHANNEL
 ************
 
-- If you have trouble with a building up a stable wifi connecting, change the channel and reboot
+Change the Wifi channel to send on another frequency, used with multiple PocketVJ's
