@@ -40,7 +40,9 @@ TOOLS
 - **Filename Fixer** => removes whitespaces, unreadable characters like à è é ö ä ü and shortens the Filename
 - **Clean Hidden** => especially when copying files vie Samba from OSX, you will get som .file files which cause the player to struggle, just click here to get rid of them
 - **Conform Images** => resizes all images to max. 1920 x 1080 and converts them to .jpg
-- **Mapping Converter** => Import mappings made in Mapio or Madmapper, see tutorial here: https://video.pocketvj.com/AVideo/video/17/pocketvj-mapping-converter
+- **Mapping Converter** => Import mappings made in Mapio or Madmapper, `see tutorial  <https://video.pocketvj.com/AVideo/video/17/pocketvj-mapping-converter>`_
+- **Get Content** => Get content from websource (since CP3.0.1), `see tutorial <https://video.pocketvj.com/AVideo/video/33/pocketvj_get_web_content>`_
+  , to shedule get content, use /var/www/sync/getcontent
 
 
 UPLOAD FILES
@@ -66,7 +68,7 @@ To upload new content, follow this procedure:
 
 
 .. note::
-    - For uploading large files (>400MB) copy from a connected USB stick    https://video.pocketvj.com/AVideo/video/19/pocketvj_usb_connecting
+    - For uploading large files (>400MB) `copy from a connected USB stick <https://video.pocketvj.com/AVideo/video/19/pocketvj_usb_connecting>`_  
 
     - Filezilla for fast uploading via sftp://
 

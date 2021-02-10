@@ -86,7 +86,7 @@ which are explained on the following pages.
 DIRECT CONNECTING WITH RJ45
 ****************************
 
-see video tutorial: https://video.pocketvj.com/AVideo/video/20/direct-rj45-to-your-pocketvj
+`see video tutorial <https://video.pocketvj.com/AVideo/video/20/direct-rj45-to-your-pocketvj>`_
 
 
 

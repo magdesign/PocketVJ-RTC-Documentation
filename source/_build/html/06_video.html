@@ -1,11 +1,11 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html4" lang="en" >
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>VIDEO &mdash; PocketVJ RTC 3.9 documentation</title>
   
@@ -16,7 +16,10 @@
 
   
   
+
   
+  
+
   
 
   
@@ -26,10 +29,9 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -51,7 +53,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home" alt="Documentation Home"> PocketVJ RTC
+            <a href="index.html" class="icon icon-home"> PocketVJ RTC
           
 
           
@@ -152,6 +154,8 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -163,7 +167,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
             <a href="_sources/06_video.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -185,40 +189,40 @@
 <div class="section" id="player">
 <h2>PLAYER<a class="headerlink" href="#player" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><strong>Play All</strong> =&gt; Plays all videos from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder</li>
-<li><strong>Loop</strong> =&gt; loops a single file from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder with a naming like: 01_myvideo.mp4</li>
+<li><p><strong>Play All</strong> =&gt; Plays all videos from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder</p></li>
+<li><p><strong>Loop</strong> =&gt; loops a single file from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder with a naming like: 01_myvideo.mp4</p></li>
 </ul>
 </div>
 <div class="section" id="player-once">
 <h2>PLAYER ONCE<a class="headerlink" href="#player-once" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><strong>Once</strong> =&gt; plays a single file from /internal/video/ folder with a naming like: 01_myvideo.mp4 only one time</li>
+<li><p><strong>Once</strong> =&gt; plays a single file from /internal/video/ folder with a naming like: 01_myvideo.mp4 only one time</p></li>
 </ul>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<ul class="last simple">
-<li>Do not use empty spaces, special characters and very long filenames.</li>
-<li>Rename your videos with a short name without any empty spaces or umlauts, you can do this also with the ‘Filename-Fixer’ function.</li>
-<li>max. audio bitrate is: 160kbit</li>
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Do not use empty spaces, special characters and very long filenames.</p></li>
+<li><p>Rename your videos with a short name without any empty spaces or umlauts, you can do this also with the ‘Filename-Fixer’ function.</p></li>
+<li><p>max. audio bitrate is: 160kbit</p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="player-sync">
 <h2>PLAYER SYNC<a class="headerlink" href="#player-sync" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><strong>Play All</strong> =&gt; Plays all videos from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder with sending the synchronisation timecode over RJ45 for receivers/slaves</li>
-<li><strong>Loop</strong> =&gt; loops a single file from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder with a naming like: 01_myvideo.mp4</li>
+<li><p><strong>Play All</strong> =&gt; Plays all videos from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder with sending the synchronisation timecode over RJ45 for receivers/slaves</p></li>
+<li><p><strong>Loop</strong> =&gt; loops a single file from <code class="docutils literal notranslate"><span class="pre">/internal/video/</span></code> folder with a naming like: 01_myvideo.mp4</p></li>
 </ul>
 </div>
 <div class="section" id="player-sync-once">
 <h2>PLAYER SYNC ONCE<a class="headerlink" href="#player-sync-once" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><strong>Once</strong> =&gt; plays a single file from <code class="docutils literal notranslate"><span class="pre">`/internal/video/`</span></code> folder with a naming like: 01_myvideo.mp4 only one time with sending the synchronisation timecode over RJ45 for receivers/slaves</li>
+<li><p><strong>Once</strong> =&gt; plays a single file from <code class="docutils literal notranslate"><span class="pre">`/internal/video/`</span></code> folder with a naming like: 01_myvideo.mp4 only one time with sending the synchronisation timecode over RJ45 for receivers/slaves</p></li>
 </ul>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<ul class="last simple">
-<li>To be able to sync, the file names on master and slave must be exactly the same!</li>
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>To be able to sync, the file names on master and slave must be exactly the same!</p></li>
 </ul>
 </div>
 </div>
@@ -227,15 +231,15 @@
 <p>You can sync your PocketVJ’s over Wifi.
 Its only possible to sync one video file over wifi and this file must be named: wifisync.mp4 on all units (there is no audiotrack supported!)</p>
 <ul class="simple">
-<li>First set the wifi name and password of the slave under <strong>NETWORK SETTINGS</strong></li>
-<li>The filename must be: wifisync.mp4 otherwhise it will not work!</li>
+<li><p>First set the wifi name and password of the slave under <strong>NETWORK SETTINGS</strong></p></li>
+<li><p>The filename must be: wifisync.mp4 otherwhise it will not work!</p></li>
 </ul>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<ul class="last simple">
-<li>There will be no audio</li>
-<li>Might be unstable in public spaces</li>
-<li>Slaves have a few Minutes to be ready</li>
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>There will be no audio</p></li>
+<li><p>Might be unstable in public spaces</p></li>
+<li><p>Slaves have a few Minutes to be ready</p></li>
 </ul>
 </div>
 </div>
@@ -244,17 +248,17 @@ Its only possible to sync one video file over wifi and this file must be named: 
 <p>Sync any other PocketVJ for a multichannel installation.
 Connect all the PocketVJ’s together with an RJ45 network.</p>
 <ul class="simple">
-<li><strong>Receiver/Slave</strong> =&gt; This will listen to the masters timecode</li>
-<li><strong>Receiver/Slave</strong> =&gt; This will listen to the masters timecode and when played once, to be used together with <strong>BUTTONS</strong> play once</li>
-<li><strong>Stop SLaves</strong> =&gt; Sends a Stop all commend to players in the network with Ip 192.168.2.100 - 110 and 10.0.0.100 - 110</li>
-<li><strong>Set long Videos</strong> =&gt; If you are syncing very large videos this might be selected since it takes time until everything is loaded</li>
-<li><strong>Set short Videos</strong> =&gt; If you are syncing very short videos to go into sync as fast as possible</li>
+<li><p><strong>Receiver/Slave</strong> =&gt; This will listen to the masters timecode</p></li>
+<li><p><strong>Receiver/Slave</strong> =&gt; This will listen to the masters timecode and when played once, to be used together with <strong>BUTTONS</strong> play once</p></li>
+<li><p><strong>Stop SLaves</strong> =&gt; Sends a Stop all commend to players in the network with Ip 192.168.2.100 - 110 and 10.0.0.100 - 110</p></li>
+<li><p><strong>Set long Videos</strong> =&gt; If you are syncing very large videos this might be selected since it takes time until everything is loaded</p></li>
+<li><p><strong>Set short Videos</strong> =&gt; If you are syncing very short videos to go into sync as fast as possible</p></li>
 </ul>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<ul class="last simple">
-<li>Syncing several players might take up to 10 Seconds, make a video with a still image for the first 10 Seconds</li>
-<li>If you use a router, make sure to be in the same subnet</li>
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Syncing several players might take up to 10 Seconds, make a video with a still image for the first 10 Seconds</p></li>
+<li><p>If you use a router, make sure to be in the same subnet</p></li>
 </ul>
 </div>
 </div>
@@ -262,39 +266,30 @@ Connect all the PocketVJ’s together with an RJ45 network.</p>
 <h2>MULTICHANNEL SYNCING<a class="headerlink" href="#multichannel-syncing" title="Permalink to this headline">¶</a></h2>
 <p>All the movie files must have the same name on master and slaves.</p>
 <ol class="arabic simple">
-<li>Set only one PocketVJ to master, set all others to slave.</li>
+<li><p>Set only one PocketVJ to master, set all others to slave.</p></li>
 </ol>
 <p>2. Connect them directly with a RJ45 cable if there is only one slave,
 use a switch to connect more players, if you use a router, make sure its configured to 192.168.2.1</p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<ul class="last">
-<li><p class="first">If you connect a slave after the master is already running, master must be restarted to detect the slave and send the timecode.</p>
-</li>
-<li><p class="first">We recommend to make the first 10s of the movie a still image, so there will be no visible syncs for the observer.</p>
-</li>
-<li><p class="first">Make sure there are only video files in the ‘video’ folder, if there are images etc. sync will not work.</p>
-</li>
-<li><p class="first">For syncing you must have same conditions for every Pocket VJ, that means:</p>
+<p class="admonition-title">Note</p>
+<ul>
+<li><p>If you connect a slave after the master is already running, master must be restarted to detect the slave and send the timecode.</p></li>
+<li><p>We recommend to make the first 10s of the movie a still image, so there will be no visible syncs for the observer.</p></li>
+<li><p>Make sure there are only video files in the ‘video’ folder, if there are images etc. sync will not work.</p></li>
+<li><p>For syncing you must have same conditions for every Pocket VJ, that means:</p>
 <blockquote>
 <div><ul class="simple">
-<li>Same output resolution, movie files with same length, framerate and bitrate.</li>
-<li>If you use different conditions, you might have to adjust the sync window by hand</li>
+<li><p>Same output resolution, movie files with same length, framerate and bitrate.</p></li>
+<li><p>If you use different conditions, you might have to adjust the sync window by hand</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Sync has an accuracy of ±3fps (regular its between 0 and1 fps)</p>
-</li>
-<li><p class="first">If there is always the same offset of synced files you can manually change the sync window and tolerance to fit our needs.</p>
-</li>
-<li><p class="first">Its depending on the bitrate check: <a class="reference external" href="https://github.com/turingmachine/omxplayer-sync">https://github.com/turingmachine/omxplayer-sync</a> or ask <a class="reference external" href="https://github.com/magdesign/PocketVJ-CP-exh/issues">https://github.com/magdesign/PocketVJ-CP-exh/issues</a></p>
-</li>
-<li><p class="first">Play the testfile and take pictures with your camera to check the timecode offset.</p>
-</li>
-<li><p class="first">Make sure your files are at least 60s in duration to increase the stability of seamless looping.</p>
-</li>
-<li><p class="first">For Syncing with high bitrates (1080p with 12 MB/s or more) you may set the SYNC_OFFSET to a higher value.</p>
-</li>
+<li><p>Sync has an accuracy of ±3fps (regular its between 0 and1 fps)</p></li>
+<li><p>If there is always the same offset of synced files you can manually change the sync window and tolerance to fit our needs.</p></li>
+<li><p>Its depending on the bitrate check: <a class="reference external" href="https://github.com/turingmachine/omxplayer-sync">https://github.com/turingmachine/omxplayer-sync</a> or ask <a class="reference external" href="https://github.com/magdesign/PocketVJ-CP-exh/issues">https://github.com/magdesign/PocketVJ-CP-exh/issues</a></p></li>
+<li><p>Play the testfile and take pictures with your camera to check the timecode offset.</p></li>
+<li><p>Make sure your files are at least 60s in duration to increase the stability of seamless looping.</p></li>
+<li><p>For Syncing with high bitrates (1080p with 12 MB/s or more) you may set the SYNC_OFFSET to a higher value.</p></li>
 </ul>
 </div>
 </div>
@@ -305,37 +300,29 @@ use a switch to connect more players, if you use a router, make sure its configu
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="07_sharing.html" class="btn btn-neutral float-right" title="SHARING" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="05_presenter.html" class="btn btn-neutral float-left" title="PRESENTER" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+        <a href="07_sharing.html" class="btn btn-neutral float-right" title="SHARING" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="05_presenter.html" class="btn btn-neutral float-left" title="PRESENTER" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; Copyright 2020, M.A.Gasser, magdesign.ch
+        &#169; Copyright 2020, M.A.Gasser, magdesign.ch.
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 

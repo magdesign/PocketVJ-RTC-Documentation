@@ -1,11 +1,11 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html4" lang="en" >
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>SHARING &mdash; PocketVJ RTC 3.9 documentation</title>
   
@@ -16,7 +16,10 @@
 
   
   
+
   
+  
+
   
 
   
@@ -26,10 +29,9 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -51,7 +53,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home" alt="Documentation Home"> PocketVJ RTC
+            <a href="index.html" class="icon icon-home"> PocketVJ RTC
           
 
           
@@ -150,6 +152,8 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -161,7 +165,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
             <a href="_sources/07_sharing.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -187,28 +191,28 @@
 <h2>VNC SCREENSHARING<a class="headerlink" href="#vnc-screensharing" title="Permalink to this headline">¶</a></h2>
 <p><strong>Mac OSX:</strong></p>
 <ol class="arabic simple">
-<li>Download Vine Server from <a class="reference external" href="http://www.testplant.com/dlds/vine/">http://www.testplant.com/dlds/vine/</a> and install it.</li>
-<li>Start Vine Server, in the menu select Server / Reverse Connection.</li>
-<li>Fill in the IP which is displayed on the screen of the PocketVJ.</li>
-<li>Voilà, you should have your computer display mirrored.</li>
+<li><p>Download Vine Server from <a class="reference external" href="http://www.testplant.com/dlds/vine/">http://www.testplant.com/dlds/vine/</a> and install it.</p></li>
+<li><p>Start Vine Server, in the menu select Server / Reverse Connection.</p></li>
+<li><p>Fill in the IP which is displayed on the screen of the PocketVJ.</p></li>
+<li><p>Voilà, you should have your computer display mirrored.</p></li>
 </ol>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
+<p class="admonition-title">Note</p>
 <p>Your computer display must have the same resolution as the screen connected to the PocketVJ.
 If the display is confusingly stretched, it might be that your computers resolution is set too high.</p>
 <p>Set your computers resolution to max. 1920x1080 pixel and try it again.</p>
-<p class="last">If you use a Retina Macbook, install RetinaDisplay Menu from www.phoenix-dev.com to change your resolution to low DPI.</p>
+<p>If you use a Retina Macbook, install RetinaDisplay Menu from www.phoenix-dev.com to change your resolution to low DPI.</p>
 </div>
 <p><strong>Windows:</strong></p>
 <ol class="arabic simple">
-<li>Download TightVNC for Windows from <a class="reference external" href="http://www.tightvnc.com/">http://www.tightvnc.com/</a> and install it. Make sure you select complete installation!</li>
-<li>You should find the TightVNC symbol in the taskbar, right-click it and select “Attach Listening viewer” and type in the address which is showing on the screen, without :5500.</li>
+<li><p>Download TightVNC for Windows from <a class="reference external" href="http://www.tightvnc.com/">http://www.tightvnc.com/</a> and install it. Make sure you select complete installation!</p></li>
+<li><p>You should find the TightVNC symbol in the taskbar, right-click it and select “Attach Listening viewer” and type in the address which is showing on the screen, without :5500.</p></li>
 </ol>
 <img alt="_images/07_screensharing.png" src="_images/07_screensharing.png" />
 <p><strong>Linux (Debian/Ubuntu):</strong></p>
 <ol class="arabic simple">
-<li>Install vnc4server: sudo apt-get install vnc4server</li>
-<li>Open a terminal and type:</li>
+<li><p>Install vnc4server: sudo apt-get install vnc4server</p></li>
+<li><p>Open a terminal and type:</p></li>
 </ol>
 <p><code class="docutils literal notranslate"><span class="pre">vnc4server</span> <span class="pre">-connect</span> <span class="pre">2.0.0.100:5500</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">x11vnc</span> <span class="pre">-connect</span> <span class="pre">2.0.0.100:5500</span></code></p>
@@ -221,25 +225,25 @@ and you want to display this part of screen, use the -clip option:</p>
 <p>See tutorial: <a class="reference external" href="https://video.pocketvj.com/AVideo/video/18/pocketvj_tcpsyphon">https://video.pocketvj.com/AVideo/video/18/pocketvj_tcpsyphon</a></p>
 <p>Very useful if you want to use PocketVJ as a second screen for VJ applications supporting Syphon or Spout.</p>
 <ol class="arabic simple">
-<li>OSX: Download TCPSyphon Server <a class="reference external" href="http://techlife.sg/TCPSyphon/">http://techlife.sg/TCPSyphon/</a>
+<li><p>OSX: Download TCPSyphon Server <a class="reference external" href="http://techlife.sg/TCPSyphon/">http://techlife.sg/TCPSyphon/</a>
 Win: Download TCPSpout Server <a class="reference external" href="http://techlife.sg/TCPSpout/">http://techlife.sg/TCPSpout/</a>
 and install it on your Computer.
 Mirrors: <a class="reference external" href="https://pocketvj.com/downloads/syphon.zip">https://pocketvj.com/downloads/syphon.zip</a>
-<a class="reference external" href="https://pocketvj.com/downloads/TCPSpout.zip">https://pocketvj.com/downloads/TCPSpout.zip</a></li>
-<li>Connect your computer to the same network as the PocketVJ.
-(make sure you are not connected to another network as well!).</li>
-<li>Start TCPSyphon server, select the input under Syphon Server List.</li>
-<li>Boot PocketVJ into TCPSClient mode and if your networksettings are right, your PocketVJ should automatically act as a Syphon display.</li>
+<a class="reference external" href="https://pocketvj.com/downloads/TCPSpout.zip">https://pocketvj.com/downloads/TCPSpout.zip</a></p></li>
+<li><p>Connect your computer to the same network as the PocketVJ.
+(make sure you are not connected to another network as well!).</p></li>
+<li><p>Start TCPSyphon server, select the input under Syphon Server List.</p></li>
+<li><p>Boot PocketVJ into TCPSClient mode and if your networksettings are right, your PocketVJ should automatically act as a Syphon display.</p></li>
 </ol>
 <img alt="_images/07_tcpsyphon.png" src="_images/07_tcpsyphon.png" />
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
+<p class="admonition-title">Note</p>
 <p>TCPSyphon Server should be running before you boot up the PocketVJ.
 Only use it if you have a RJ45 connection to the PocketVJ, we tested with Wifi and it is laggy.</p>
 <p>Max. numbers of TCPSyphon clients are 10.
 Your video application must support a Syphon output.</p>
 <p>Alternatively you can use Screen Capture Syphon <a class="reference external" href="http://techlife.sg/ScreenCaptureSyphon/">http://techlife.sg/ScreenCaptureSyphon/</a> to define an area to be mirrored to the PocketVJ.</p>
-<p class="last">For Linux: use Screensharing (VNC) with the -clip option which works pretty well.
+<p>For Linux: use Screensharing (VNC) with the -clip option which works pretty well.
 Instead of a second screen, attach a HD gameplay recorder to the HDMI port.</p>
 </div>
 </div>
@@ -259,37 +263,29 @@ Needs some updates and coding work for an USB cam.</p>
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="08_mapping.html" class="btn btn-neutral float-right" title="MAPPING" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="06_video.html" class="btn btn-neutral float-left" title="VIDEO" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+        <a href="08_mapping.html" class="btn btn-neutral float-right" title="MAPPING" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="06_video.html" class="btn btn-neutral float-left" title="VIDEO" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; Copyright 2020, M.A.Gasser, magdesign.ch
+        &#169; Copyright 2020, M.A.Gasser, magdesign.ch.
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
