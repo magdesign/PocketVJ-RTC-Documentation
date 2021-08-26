@@ -14,6 +14,7 @@ MAPPING
     - Use a Video resolution of 1280 x 720 and a video containing an audiotrack (even silent).
 
     - If the mapped video stutters, decrease the bitrate and resolution or wait until it played a few times.
+    - Update: with CP 3.0.3 or newer mapping will also work without USB mouse.
 
 
 see tutorial: https://video.pocketvj.com/AVideo/video/28/pocketvj-mapping-tutorial

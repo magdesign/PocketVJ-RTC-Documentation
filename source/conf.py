@@ -61,3 +61,4 @@ master_doc = 'index'
 
 html_theme = 'sphinx_rtd_theme'
 
+html_logo = "_static/PocketVJ.png"

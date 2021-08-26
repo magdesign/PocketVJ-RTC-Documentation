@@ -80,12 +80,13 @@ Connect all the PocketVJ's together with an RJ45 network.
 
 - **Receiver/Slave** => This will listen to the masters timecode
 - **Receiver/Slave** => This will listen to the masters timecode and when played once, to be used together with **BUTTONS** play once
-- **Stop SLaves** => Sends a Stop all commend to players in the network with Ip 192.168.2.100 - 110 and 10.0.0.100 - 110
-- **Set long Videos** => If you are syncing very large videos this might be selected since it takes time until everything is loaded
-- **Set short Videos** => If you are syncing very short videos to go into sync as fast as possible
+- **Stop Slaves** => Sends a Stop all commend to players in the network with Ip 192.168.2.100 - 110 and 10.0.0.100 - 110
+- **Set long Videos** => If you are syncing very large videos this might be selected since it takes time until everything is loaded (takes 10 seconds to sync).
+- **Set short Videos** => If you are syncing very short videos to go into sync as fast as possible (min. video length should be 60 seconds!)
 
 .. note::
     - Syncing several players might take up to 10 Seconds, make a video with a still image for the first 10 Seconds
+    - min. Video length should be 60 seconds, it makes sense to produce videos which are 3-5 min. to have a nice sync experience
     - If you use a router, make sure to be in the same subnet
 
 
@@ -123,3 +124,16 @@ use a switch to connect more players, if you use a router, make sure its configu
     - Make sure your files are at least 60s in duration to increase the stability of seamless looping.
     - For Syncing with high bitrates (1080p with 12 MB/s or more) you may set the SYNC_OFFSET to a higher value.
 
+
+
+FADE
+****
+
+Here you can fade the playing video to black and vice versa. 
+If this feature is not working, you need to update and check that you have omxplayer version 2018 in SYSTEM SETTINGS
+
+
+SPEED
+*****
+
+Adjust the playback speed, keep in mind that this is not compatible with syncing several players.

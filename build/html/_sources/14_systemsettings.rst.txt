@@ -9,8 +9,19 @@ SYSTEM SETTINGS
 INFO
 ****
 
-Get some info about the system
+Get some info about the system.
 
+**PVJ Version** shows you the image version and build date.
+
+**omx Version** shows you omxplayer version (for fading you need version 2018).
+
+**CPU Temperature** shows current CPU temperature.
+
+**GPU Usage** shows GPU usage.
+
+**Powersupply** checks if the PocketVJ gets enough current or is underpowered.
+
+**Check Services** shows you which services are enabled and which are disabled.
 
 
 
@@ -18,9 +29,16 @@ Get some info about the system
 AUDIO OUTPUT
 ************
 
-Select where you want the audio to be played
+Select where you want the audio to be played.
+Limit of audio compression is: 160kbit/s 
+(you can experiment with higher values, but then decrease the video bitrate).
 
-You can attached USB soundcards, keep in mind that when they are huge, to use an USB powered USB hub.
+If the quality from mini Jack plug does not make you happy, use audio over HDMI with an extender or attach an USB soundcard, keep in mind that when they arw big, to provide them power from an external powersource.
+
+
+
+.. image:: _images/14_usbsoundcard.png
+
 
 AUDIO TESTTONE
 **************
@@ -60,5 +78,5 @@ Access the terminal, used for remote support via chat
 ALPHA STUFF
 ***********
 
-Do not touch!
+Do not touch! except I tell you to do so...
 

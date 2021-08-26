@@ -32,9 +32,11 @@ https://github.com/magdesign/PocketVJ-CP-v3/raw/master/sync/PocketVJ_OSC.touchos
       :width: 300
 
 
+There are many tools on the market which can send OSC commands.
+For example OSCulator or QLAB.
+Make sure you are not blocked by a firewall if the command does not get through to the player
 
-
-To send OSC commands under Debian Linux 
+If you want to send commands from terminal
 (sudo apt install liblo-tools):
 
 ``oscsend 192.168.2.100 9876 /pause``

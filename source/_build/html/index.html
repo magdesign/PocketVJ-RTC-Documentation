@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>PocketVJ RTC User Manual &mdash; PocketVJ RTC 3.9 documentation</title>
   
@@ -16,10 +16,7 @@
 
   
   
-
   
-  
-
   
 
   
@@ -32,6 +29,7 @@
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -52,9 +50,12 @@
           
 
           
-            <a href="#" class="icon icon-home"> PocketVJ RTC
+            <a href="#" class="icon icon-home" alt="Documentation Home"> PocketVJ RTC
           
 
+          
+            
+            <img src="_static/PocketVJ.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -144,8 +145,6 @@
 
 
 
-
-
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -157,7 +156,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-          
+            
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -174,8 +173,8 @@
   <div class="section" id="pocketvj-rtc-user-manual">
 <h1>PocketVJ RTC User Manual<a class="headerlink" href="#pocketvj-rtc-user-manual" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/00_PocketVJ_RTC.jpg" src="_images/00_PocketVJ_RTC.jpg" />
-<p>Version 01/2020</p>
-<p>This user manual is published by MAG Design without any warranty.</p>
+<p>Version 03/2021</p>
+<p>This user manual is published by magdesign.ch without any warranty.</p>
 <p>Improvements and changes to this manual necessitated by typographical errors,
 inaccuracies of current information, or improvements to
 programs and hardware, may be made by MAG Design at any time and without notice.
@@ -183,6 +182,8 @@ Such changes will, however, be incorporated into new editions of this User guide
 <p>Under the copyright laws, this manual may not be copied in whole or in part
 without the written consent of the owner.</p>
 <p>No worries, just ask me politely :-)</p>
+<p>If you prefer videotutorials:
+<a class="reference external" href="https://tutorials.pocketvj.com">https://tutorials.pocketvj.com</a></p>
 </div>
 <div class="section" id="content">
 <h1>Content<a class="headerlink" href="#content" title="Permalink to this headline">¶</a></h1>
@@ -229,6 +230,8 @@ without the written consent of the owner.</p>
 <li class="toctree-l2"><a class="reference internal" href="06_video.html#sync-wifi">SYNC WIFI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="06_video.html#multichannel">MULTICHANNEL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="06_video.html#multichannel-syncing">MULTICHANNEL SYNCING</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_video.html#fade">FADE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_video.html#speed">SPEED</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="07_sharing.html">SHARING</a><ul>
@@ -293,6 +296,14 @@ without the written consent of the owner.</p>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="15_troubleshooting.html">TROUBLESHOOTING</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#not-able-to-connect-cp-via-browser">Not able to connect CP via browser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#movie-plays-but-stutters"><strong>Movie plays, but stutters</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#i-dont-get-an-ip-address-from-the-pocketvj"><strong>I dont get an IP address from the PocketVJ</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#can-t-connect-via-wifi-or-constantly-loosing-wifi-connection"><strong>Can’t connect via WIFI or constantly loosing WIFI connection</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#movie-is-not-playing"><strong>Movie is not playing</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#usb-stick-does-not-work-anymore-on-my-computer"><strong>USB-Stick does not work anymore on my computer</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#connected-several-pocketvjs-over-a-router"><strong>Connected several PocketVJs over a router</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#remote-power-on-projector-does-not-work"><strong>Remote “Power On Projector” does not work</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="15_troubleshooting.html#create-h264-movies">CREATE h264 MOVIES</a></li>
 </ul>
 </li>
@@ -305,28 +316,35 @@ without the written consent of the owner.</p>
            
           </div>
           <footer>
+  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="01_first_steps.html" class="btn btn-neutral float-right" title="First Steps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+        <a href="01_first_steps.html" class="btn btn-neutral float-right" title="First Steps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
     </div>
+  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2020, M.A.Gasser, magdesign.ch.
+        
+        &copy; Copyright 2020, M.A.Gasser, magdesign.ch
 
     </p>
   </div>
     
     
     
-    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
+
         </div>
       </div>
 

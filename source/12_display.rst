@@ -38,7 +38,7 @@ Rotate or flip the output => Needs reboot
 SLEEP
 ******
 
-Set the display to sleep or wakeup
+Set the display and GPU to sleep or wakeup
 
 
 
@@ -53,6 +53,9 @@ PROJECTOR
     - Make sure to connect a PJlink compatible projector via rj45 cable
     - Default ip is: 192.168.2.254
     - Disable password and powersettings on projector
+    - Some projectors act weird, this is not my fault, before complaining check if you are able to power them off from CP
+    - You are able to control several projectors, give them all the same ip or add their Ip to the script
+  
 
 
 

@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>SYSTEM SETTINGS &mdash; PocketVJ RTC 3.9 documentation</title>
   
@@ -16,10 +16,7 @@
 
   
   
-
   
-  
-
   
 
   
@@ -32,6 +29,7 @@
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -53,9 +51,12 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> PocketVJ RTC
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> PocketVJ RTC
           
 
+          
+            
+            <img src="_static/PocketVJ.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -154,8 +155,6 @@
 
 
 
-
-
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -167,7 +166,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-          
+            
             <a href="_sources/14_systemsettings.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -186,12 +185,21 @@
 <img alt="_images/14_CP_systemsettings.png" src="_images/14_CP_systemsettings.png" />
 <div class="section" id="info">
 <h2>INFO<a class="headerlink" href="#info" title="Permalink to this headline">¶</a></h2>
-<p>Get some info about the system</p>
+<p>Get some info about the system.</p>
+<p><strong>PVJ Version</strong> shows you the image version and build date.</p>
+<p><strong>omx Version</strong> shows you omxplayer version (for fading you need version 2018).</p>
+<p><strong>CPU Temperature</strong> shows current CPU temperature.</p>
+<p><strong>GPU Usage</strong> shows GPU usage.</p>
+<p><strong>Powersupply</strong> checks if the PocketVJ gets enough current or is underpowered.</p>
+<p><strong>Check Services</strong> shows you which services are enabled and which are disabled.</p>
 </div>
 <div class="section" id="audio-output">
 <h2>AUDIO OUTPUT<a class="headerlink" href="#audio-output" title="Permalink to this headline">¶</a></h2>
-<p>Select where you want the audio to be played</p>
-<p>You can attached USB soundcards, keep in mind that when they are huge, to use an USB powered USB hub.</p>
+<p>Select where you want the audio to be played.
+Limit of audio compression is: 160kbit/s
+(you can experiment with higher values, but then decrease the video bitrate).</p>
+<p>If the quality from mini Jack plug does not make you happy, use audio over HDMI with an extender or attach an USB soundcard, keep in mind that when they arw big, to provide them power from an external powersource.</p>
+<img alt="_images/14_usbsoundcard.png" src="_images/14_usbsoundcard.png" />
 </div>
 <div class="section" id="audio-testtone">
 <h2>AUDIO TESTTONE<a class="headerlink" href="#audio-testtone" title="Permalink to this headline">¶</a></h2>
@@ -215,7 +223,7 @@
 </div>
 <div class="section" id="alpha-stuff">
 <h2>ALPHA STUFF<a class="headerlink" href="#alpha-stuff" title="Permalink to this headline">¶</a></h2>
-<p>Do not touch!</p>
+<p>Do not touch! except I tell you to do so…</p>
 </div>
 </div>
 
@@ -224,29 +232,37 @@
            
           </div>
           <footer>
+  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="15_troubleshooting.html" class="btn btn-neutral float-right" title="TROUBLESHOOTING" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="13_networksettings.html" class="btn btn-neutral float-left" title="NETWORK SETTINGS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+        <a href="15_troubleshooting.html" class="btn btn-neutral float-right" title="TROUBLESHOOTING" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="13_networksettings.html" class="btn btn-neutral float-left" title="NETWORK SETTINGS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
     </div>
+  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2020, M.A.Gasser, magdesign.ch.
+        
+        &copy; Copyright 2020, M.A.Gasser, magdesign.ch
 
     </p>
   </div>
     
     
     
-    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
+
         </div>
       </div>
 

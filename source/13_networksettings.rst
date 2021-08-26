@@ -25,15 +25,23 @@ CHANGE IP
 
 CP PASSWORD
 ***********
+To copy protect your content and lock the remote:
+
 
 Username: ``pocketvj``
 
 Password: ``12345``
 
+.. image:: _images/13_CP_password.png
+
+
+
 .. note::
     Change the password in ``/etc/lighttpd/.htpasswd``
+ 
 
 
+    
 
 WIFI ANTENNA
 *************
