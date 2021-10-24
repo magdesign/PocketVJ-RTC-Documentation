@@ -23,7 +23,24 @@ then all you have to do is to remove the  https:// in the addressbar:
 
 .. image:: _images/15_disable_https.png
 
+**Trouble connecting to Wifi Hotspot (vj100) with a Windows Computer**
+**************************************************************
+
+If your Windows10 does not allow to connect to the PocketVJ wifi (vj100), following steps might help:
+
+
+.. image:: _images/15_windows_wifi.png
+
+
+or this one:
+
+.. image:: _images/15_windows_wifi2.png
+
+
+.
+
 **After update CP is showing a blank page**
+*******************************************
 
 => Do again an update, but with the alternative method:
 https://video.pocketvj.com/AVideo/video/41/pocketvj-rtc-alternative-update
@@ -88,15 +105,21 @@ if this is the case, unplug rj45 until it finds the projector, then you can plug
 
 
 
-CREATE h264 MOVIES
-******************
 
-Best way to do this is using https://handbrake.fr
+**Special Functions**
+*********************
 
-Beleive me, the Adobe codecs are crap!
+Nearly everything is possible ;)
+
+Open an issue on github and your desired function it will be available on the next update ;)
+
+If you are in a hurry, you might drop me a donation to get things coded fast...
 
 
 
+**Get help online:** 
+********************
 
+https://github.com/magdesign/PocketVJ-CP-v3/issues
 
-**Finally, after several hours I reached the end of the documentation, if there is somethingn wrong or missing, please tell me!**
+There will always be a solution :-)

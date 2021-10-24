@@ -30,13 +30,15 @@ SLIDE TIME
 - Define the time until next slide will appear
  
 
-Note:
-::
+.. note::
+
     - Do not use empty spaces, special characters and very long filenames.
     - Rename your images with a short name without any empty spaces or umlauts, you can do this also with the 'Filename-Fixer' function.
    
     
 
+.. note::
+    If you for example use the image viewer to show one specific image, then just delete all other images in the /internal/images folder.
 
 
 OVERLAY
