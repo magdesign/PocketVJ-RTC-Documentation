@@ -1,4 +1,6 @@
 # PocketVJ-RTC-Documentation
 
 Read it here: https://html-preview.github.io/?url=https://raw.githubusercontent.com/magdesign/PocketVJ-CP-v3/refs/heads/master/docs/html/index.html
-wesite: https://magdesign.github.io/pocketvj_website/
+
+
+official website: https://magdesign.github.io/pocketvj_website/
